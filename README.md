@@ -10,9 +10,9 @@ REQUISITOS:
   <li>djangorestframework Version 3.9.0</li>
 </ul>
 
-<lh>
+****************
 COMO UTILIZAR
-<lh>
+****************
 Execute no terminal dentro do diretório: /Api/openapi/ <br>
     <pre>$python manage.py runserver</pre>
 
@@ -40,7 +40,7 @@ Métodos da API:
 - PUT: <br>
      url: http://127.0.0.1:8000/api/components/schemas/ContatoUpdate/{id} <br>
         Atualiza o registro do contato com {id} especificado no parâmetro com novos valores. <br>
-<br>
+
 - DELETE: <br>
      url: http://127.0.0.1:8000/api/components/schemas/Contato/{id}<br>
         Remove o registro do contato com {id} especificado no parâmetro <br>
