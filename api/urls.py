@@ -1,7 +1,6 @@
 from django.conf.urls import url
 from .views import *
 
-
 urlpatterns =[
     url(r'^components/schemas/Contato$', ContatoList.as_view()),
     url(r'^components/schemas/ContatoCreate$', ContatoCreate.as_view()),
