@@ -10,9 +10,9 @@ REQUISITOS:
   <li>djangorestframework Version 3.9.0</li>
 </ul>
 
-********************
+<lh>
 COMO UTILIZAR
-********************
+<lh>
 Execute no terminal dentro do diretório: /Api/openapi/ <br>
     <pre>$python manage.py runserver</pre>
 
@@ -21,15 +21,16 @@ Métodos da API:
     url: http://127.0.0.1:8000/api/components/schemas/Contato <br>
         Retorna uma lista com todos os contatos registrados no banco, mostrando 10 registros por página
     <br>    
-    url: http://127.0.0.1:8000/api/components/schemas/Contato/{id}
+    url: http://127.0.0.1:8000/api/components/schemas/Contato/{id} <br>
         Retorna o registro do contato com {id} especificado no parâmetro
     <br>    
-    url: http://127.0.0.1:8000/api/components/schemas/Contato?page=1&size=4
+    url: http://127.0.0.1:8000/api/components/schemas/Contato?page=1&size=4 <br>
         Retorna a primeira página com uma lista mostrando 4 registros por página <br>
 - POST: <br>
     url: http://127.0.0.1:8000/api/components/schemas/ContatoCreate <br>
         Adiciona um novo contato com valores informados na requisição html <br>
-        <pre> Exemplo: { 
+        Exemplo: <br>
+        <pre> { 
                     "nome": "Monty Python",
                     "canal": "email",
                     "valor": "monty@python.com",
